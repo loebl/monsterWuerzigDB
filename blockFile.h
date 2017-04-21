@@ -1,7 +1,7 @@
 #include "block.h"
 
-class blockFile {
-	
+class blockFile
+{	
 	public:
 		blockFile();
 		block read(int index);
