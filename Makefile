@@ -1,12 +1,12 @@
 
 all: monsterWuerzigDB
 
-SOURCES := block.cc \
-           blockFile.cc \
-	   dbi.cc
+SOURCES := src/block.cc \
+           src/blockFile.cc \
+	   monsterWuerzigDB.cc
 
 CXXFLAGS := -std=c++11 -Wall -Wextra -pedantic
-CPPFLAGS := -MD
+CPPFLAGS := -MD -Iinclude
 
 OBJECTS := $(SOURCES:%.cc=%.o)
 
