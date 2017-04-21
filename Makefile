@@ -10,7 +10,7 @@ CPPFLAGS := -MD -Iinclude
 
 OBJECTS := $(SOURCES:%.cc=%.o)
 
-monsterWuerzigDB: $(OBJECTS)
+monsterWuerzigDB: $(SOURCES)
 
 
 clean:

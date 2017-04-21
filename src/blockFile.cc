@@ -1,6 +1,5 @@
 #include "blockFile.h"
 
-
 blockFile::blockFile(std::string path, std::string fileName)
 {
 	std::cout << std::endl << path + fileName << std::endl;

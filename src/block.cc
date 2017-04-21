@@ -7,6 +7,5 @@ int block::writeData(/*std::array<uint8_t, 4096>& data*/)
 
 std::array<uint8_t, 4096>& block::getData()
 {
-
 }
 
