@@ -10,9 +10,7 @@ CPPFLAGS := -MD
 
 OBJECTS := $(SOURCES:%.cc=%.o)
 
-  #replace -Og -g with different flags if needed
 monsterWuerzigDB: $(OBJECTS)
-	g++ -o $@ $(LDFLAGS) $^
 
 
 clean:
