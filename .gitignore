@@ -1,2 +1,4 @@
-./monsterWuerzigDB
+monsterWuerzigDB
+*.d
+*.o
 
